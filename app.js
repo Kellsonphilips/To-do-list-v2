@@ -170,7 +170,13 @@ app.get("/about", function(req, res){
 });
 
 // localhost server listening to help run your code in the browser without the database for testing.
+// heroku assigned port or locally assigned port
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
+let port = process.env.PORT;
+if (port == null || port == "") {
+  port = 3000;
+}
+
+app.listen(port, function() {
+  console.log("Server has started Successfully.");
 });
