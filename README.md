@@ -40,4 +40,14 @@ A Home route
 
 
 
+### Add more routes
+
+- Add more route and more task to each route and navigate through the tasks using route
+
+![todolistv2-4](https://user-images.githubusercontent.com/81332784/178045421-a7f2c606-5094-44e9-9469-5243c01cdfec.png)
+
+
+![todolistv2-5](https://user-images.githubusercontent.com/81332784/178045564-2c7890c2-7cdc-439a-9047-5314c15c4ab5.png)
+
+
 
