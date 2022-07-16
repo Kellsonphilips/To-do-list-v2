@@ -15,7 +15,7 @@ app.use(express.static("public"));
 
 // Specifying our mongoose url server 
 
-mongoose.connect("mongodb+srv://kellsonphilips:Light45617398@firstcluster0.wft7b.mongodb.net/todolistDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:3000/todolistDB", {useNewUrlParser: true});
 
 // Creating our database schema for the app todolist
 
